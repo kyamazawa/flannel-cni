@@ -1,4 +1,4 @@
-FROM busybox
+FROM arm64v8/busybox
 
 ADD dist/flannel /opt/cni/bin/flannel
 ADD dist/loopback /opt/cni/bin/loopback
